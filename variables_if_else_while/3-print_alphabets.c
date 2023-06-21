@@ -16,12 +16,15 @@ int main(void)
 	char lowletter = 'a';
 	char uppletter = 'A';
 
-	do(lowletter <= 'z')	{
+	while (lowletter <= 'z')
+	{
 		putchar(lowletter);
+		lowletter++;
 	}
 	while (uppletter <= 'Z')
 	{
-		putchar(upletter);
+		putchar(uppletter);
+		uppletter++;
 	}
 
 	putchar ('\n');
