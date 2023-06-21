@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - Prints alphabet
+ * main - Prints alphabet
  * @void: Empty parameter of main
  *
  * Description: Prints alphabet lowe and uppercase
