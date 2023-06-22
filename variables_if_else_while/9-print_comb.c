@@ -16,12 +16,17 @@ int main(void)
 
 	for (i = 0; i < 9; i++)
 	{
-
+	if (i == 8)
+	{
 	putchar(i + '0');
+	}
+	else
+	{
+	putchat(i + '0');
 	putchar(',');
 	putchar(' ');
 
 	}
-
+	}
 	return (0);
 }
