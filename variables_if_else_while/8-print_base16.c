@@ -19,9 +19,8 @@ int main(void)
 		putchar(i + '0');
 	}
 
-	int c;
 
-	for (c = 0; i <= 9; i++)
+	for (i = 0; i <= 9; i++)
 	{
 		putchar(i + 'a');
 	}
