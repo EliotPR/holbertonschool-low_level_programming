@@ -2,7 +2,10 @@
 
 /**
  * main - Entry Point
- * RETURN: always 0
+ *
+ * Description: Prints _putchar w/out stdio
+ *
+ * Return: 0 for sucess
  *
  **/
 
