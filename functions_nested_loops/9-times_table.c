@@ -19,8 +19,12 @@ void times_table(void)
 	char ch = i * j + '0';
 
 	_putchar(ch);
+
+	if (j != 9)
+	{
 	_putchar(',');
 	}
 		_putchar('\n');
+	}
 	}
 }
