@@ -16,15 +16,9 @@ void times_table(void)
 	for (j = 0; j <= 9; j++)
 	{
 
-	char ch = i * j + '0';
+	printf("%d, ", i * j);
 
-	_putchar(ch);
-
-	if (j != 9)
-	{
-	_putchar(',');
 	}
-		_putchar('\n');
-	}
+		printf('\n');
 	}
 }
