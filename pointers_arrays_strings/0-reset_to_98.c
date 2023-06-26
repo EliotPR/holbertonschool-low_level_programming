@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - prints *n
- * @*n: pointer now is equal to 98
+ * @n: pointer now is equal to 98
  *
  **/
 
